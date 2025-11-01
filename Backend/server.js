@@ -5,9 +5,7 @@ const dotenv = require('dotenv');
 const tripRoutes = require('./routes/trip');
 const authRoutes = require('./routes/auth');
 const contactRoutes = require('./routes/contact');
-
 dotenv.config();
-
 const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(cors({
