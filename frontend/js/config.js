@@ -1,4 +1,4 @@
-export const API_BASE_URL = 'https://github.com/coderovers04/Travaio';
+export const API_BASE_URL = 'https://travaiobackend.vercel.app/';
 <script>
-  window.API_BASE_URL = 'https://github.com/coderovers04/Travaio';
+  window.API_BASE_URL = 'https://travaiobackend.vercel.app/';
 </script>
